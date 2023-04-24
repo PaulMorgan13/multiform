@@ -10,7 +10,7 @@
 <body>
 <form data-multi-step>  
 
-    <div class="card" data-step="1">
+    <div class="card active" data-step="1">
       <div class="form-group">
         <label for="email">Email</label>
         <input type="email" name="email" id="email">
@@ -33,13 +33,13 @@
           
           <div class="form-group">
             <label for="city">City</label>
-            <input type="city" name="city" id="city">
+            <input type="text" name="city" id="city">
     
            </div>
 
           <div class="form-group">
             <label for="zipcode">Zip Code</label>
-            <input type="zipcode" name="zipcode" id="zipcode">
+            <input type="text" name="zipcode" id="zipcode">
     
            </div>
            <button>prev</button>
@@ -47,7 +47,20 @@
 
     </div>
     
-    <div class="card" data-step="3"> 
+    <div class="card" data-step="3">    
+
+        <div class="form-group">
+            <label for="firstnamme">First name</label>
+            <input type="text" name="firstname" id="firstname">
+          </div> 
+          
+          <div class="form-group">
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname">
+    
+           </div>
+
+
         <button type="submit">Submit</button>
     </div>
 
